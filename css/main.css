@@ -56,7 +56,7 @@ body {
      -moz-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url("../../images/pattern-background-desktop.svg"), var(--color-primary-pale-blue);
+  background: url("../images/pattern-background-desktop.svg"), var(--color-primary-pale-blue);
   -webkit-background-size: auto auto;
        -o-background-size: auto;
           background-size: auto;
@@ -164,7 +164,7 @@ a:hover, a:focus {
       -ms-flex: 0 0 14rem;
           flex: 0 0 14rem;
   width: 100%;
-  background-image: url("../../images/illustration-hero.svg");
+  background-image: url("../images/illustration-hero.svg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
        -o-background-size: cover;
