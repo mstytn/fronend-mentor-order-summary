@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/mstytn/fronend-mentor-order-summary](https://github.com/mstytn/fronend-mentor-order-summary)
+- Live Site URL: [https://mstytn.github.io/fronend-mentor-order-summary/index.html](https://mstytn.github.io/fronend-mentor-order-summary/index.html)
 
 ## My process
 
@@ -49,4 +49,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@mstytn](https://www.frontendmentor.io/profile/mstyn)
