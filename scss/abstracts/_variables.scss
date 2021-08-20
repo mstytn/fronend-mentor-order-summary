@@ -1,0 +1,23 @@
+//CSS Variables
+:root {
+    /* Colors */
+
+    --color-primary-pale-blue: hsl(225, 100%, 94%);
+    --color-primary-bright-blue: hsl(245, 75%, 52%);
+    --color-primary-bright-hover: hsl(243, 78%, 68%);
+
+    --color-neutral-very-pale-blue: hsl(225, 100%, 98%);
+    --color-neutral-desaturated-blue: hsl(224, 23%, 55%);
+    --color-neutral-dark-blue: hsl(223, 47%, 23%);
+    --color-neutral--dark-blue-shadow: hsla(223, 47%, 23%, 0.3);
+
+    --var-border-radius: 2rem;
+
+    --shadow-min: 0 0 1.5rem var(--color-neutral--dark-blue-shadow);
+    --shadow-max: 0 1rem 1.5rem var(--color-neutral--dark-blue-shadow);
+}
+
+//SASS Variables
+
+$mobile: 24.25rem; //388px 
+$web: 71.25rem;  //1440px

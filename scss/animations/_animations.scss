@@ -1,0 +1,47 @@
+@keyframes comeFromTop {
+    0% {
+        transform: translateY(-30rem);
+        opacity: 0;
+    }
+    40% {
+        opacity: .2;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes comeFromBottom {
+    0% {
+        transform: translateY(10rem);
+        opacity: 0;
+    }
+    40% {
+        opacity: .2;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(-1rem);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes clip {
+    from {
+        clip-path: polygon(0 0, 0 100%, 0 100%, 0 0);
+    }
+    to {
+        clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    }
+}

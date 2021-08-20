@@ -1,0 +1,42 @@
+.btn {
+    flex: 1 0 auto;
+    background-color: var( --color-primary-bright-blue);
+    color: white;
+    font-family: inherit;
+    font-weight: 900;
+    padding: 1rem 2rem;
+    @media only screen and (max-width: $mobile) {
+        padding: 1.5rem 2rem;
+    }
+    border-radius: 1rem;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: var(--shadow-max);
+    transition: all .5s;
+
+    &:hover, &:active, &:focus {
+        background-color: var(--color-primary-bright-hover);
+        box-shadow: var(--shadow-min);
+    }
+
+    
+
+    &--alt {
+        flex: 1 0 auto;
+        background-color: transparent;
+        color: var(--color-neutral-desaturated-blue);
+        font-weight: 900;
+        letter-spacing: 1px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        padding: .8rem 2rem;
+
+        &:hover, &:active, &:focus {
+            transition: all .5s;
+            color: black;
+        }
+    }
+}

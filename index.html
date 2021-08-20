@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+</head>
+<body>
+  <div class="card">
+    <div class="card__image"></div>
+    <h1 class="card__title">Order Summary</h1>
+    <p class="card__info">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</p>
+    <div class="current-order">
+      <img src="./images/icon-music.svg" alt="Music icon" class="current-order__icon">
+      <div class="current-order__plan">
+        <h3 class="current-order__plan__name">Annual Plan</h3>
+        <p class="current-order__plan__payment">$59.99/year</p>
+      </div>
+      <a href="#" class="current-order__change">Change</a>
+    </div>
+    <form action="#" method="post" class="card__form">
+      <button type="submit" class="btn card__form__btn">Proceed to Payment</button>
+      <button type="reset" class="card__form__btn--alt btn--alt u-margin-top-small">Cancel Order</button>
+    </form>
+  </div>
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Mustafa Yatağan</a>.
+    </div>
+  </footer> 
+</body>
+</html>

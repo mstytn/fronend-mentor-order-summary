@@ -1,0 +1,80 @@
+.card {
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    width: 28rem;     
+    @media only screen and (max-width: $mobile) {
+        width: 26rem;
+    }
+
+    backface-visibility: hidden;
+
+    animation-name: comeFromTop;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    
+    align-items: center;
+    text-align: center;
+    border-radius: var(--var-border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-min);
+    padding-bottom: 1.8rem;
+
+    &__title {
+        margin-top: 3rem;
+
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        animation-delay: .5s;
+        animation-fill-mode: backwards;
+    }
+
+    &__image {
+        flex: 0 0 14rem;
+        width: 100%;
+        background-image: url("../../images/illustration-hero.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+    }
+
+    &__info {
+        margin-top: 1rem;
+        padding: 0 5rem;
+
+        animation-name: fadeIn;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+        animation-delay: .8s;
+        animation-fill-mode: backwards;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+        &__btn {
+            animation-name: comeFromBottom;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-iteration-count: 1;
+            animation-delay: .8s;
+            animation-fill-mode: backwards;
+
+            &--alt {
+                animation-name: comeFromBottom;
+                animation-duration: 1s;
+                animation-timing-function: ease;
+                animation-iteration-count: 1;
+                animation-delay: 1s;
+                animation-fill-mode: backwards;
+            }
+        }
+    }
+}
+
